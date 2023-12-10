@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'; //Ahora que importamos un componente si se está utilizando React
 import ReactDOM from "react-dom";
+import PrimeraApp from "./PrimeraApp";
 
-const saludo = <h1>hola mundano</h1>; //variable que crea elemento html
-console.log(saludo); //si haces esto fijate que muestra la etiqueta h1 y sus propiedades. Es un elemento html creado por React
+import "./index.css"
 
 const divRoot = document.querySelector("#app"); //referencia al index.html
 
-ReactDOM.render( saludo, divRoot);
+
+ReactDOM.render( <PrimeraApp />, divRoot);
 
 
