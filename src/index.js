@@ -7,6 +7,6 @@ import "./index.css"
 const divRoot = document.querySelector("#app"); //referencia al index.html
 
 
-ReactDOM.render( <PrimeraApp />, divRoot);
+ReactDOM.render( <PrimeraApp saludo = 'Hola, soy goku' /> , divRoot);
 
 
